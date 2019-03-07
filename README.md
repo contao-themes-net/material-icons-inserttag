@@ -1,48 +1,17 @@
-# Contao 4 skeleton bundle
+# Material Icons Inserttag Bundle
 
-Contao is an Open Source PHP Content Management System for people who want a
-professional website that is easy to maintain. Visit the [project website][1]
-for more information.
+This extension provide one insert tag for creating [Material Icons](https://material.io/tools/icons/?style=baseline "Material Icons") in Contao CMS. 
 
-You can use the skeleton bundle as basis for your own Contao bundle.
+## Insert Tag
 
-## Install
+Use the ``mi`` prefix for the insert tag. Replace the name after ``::`` with the material icon name, e.g. check.
 
-Download the skeleton bundle:
+    {{mi::check}}
 
-```bash
-wget https://github.com/contao/skeleton-bundle/archive/master.zip
-unzip master.zip
-mv skeleton-bundle-master [package name]
-cd [package name]
-```
+You can change the size of the icon if you insert the classes after the second ``::``. Possible classes are: ``tiny``, ``small``, ``medium`` and ``large``.
 
-## Customize
+    {{mi::check::large}}
+    
+You can define more classes, e.g. for font and background color. For the color classes you must include the [Materialize Framework](https://materializecss.com "Materialize Framework").  [Here](https://materializecss.com/color.html "Materialize Colors") you can find all materialize colors.
 
-First adjust the following files:
-
- * `.php_cs.php`
- * `composer.json`
- * `phpunit.xml.dist`
- * `README.md`
-
-Then rename the following files and/or the references to `MaterialIconsInserttag` in
-the following files:
-
- * `src/ContaoManager/Plugin.php`
- * `src/DependencyInjection/ContaoSkeletonExtension.php`
- * `src/ContaoThemesNetMaterialIconsInserttag.php`
- * `tests/ContaoThemesNetMaterialIconsInserttagTest.php`
-
-Finally add your custom classes and resources.
-
-## Release
-
-Run the PHP-CS-Fixer and the unit test before you release your bundle:
-
-```bash
-vendor/bin/php-cs-fixer fix -v
-vendor/bin/phpunit
-```
-
-[1]: https://contao.org
+    {{mi::check::large white-text red}}
