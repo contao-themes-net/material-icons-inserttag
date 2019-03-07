@@ -18,7 +18,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use ContaoThemesNet\MaterialIconsInserttag\ContaoThemesNetMaterialIconsInserttag;
+use ContaoThemesNet\MaterialIconsInserttag\ContaoThemesNetMaterialIconsInserttagBundle;
 
 class Plugin implements BundlePluginInterface
 {
@@ -28,7 +28,7 @@ class Plugin implements BundlePluginInterface
     public function getBundles(ParserInterface $parser)
     {
         return [
-            BundleConfig::create(ContaoThemesNetMaterialIconsInserttag::class)
+            BundleConfig::create(ContaoThemesNetMaterialIconsInserttagBundle::class)
                 ->setLoadAfter([ContaoCoreBundle::class]),
         ];
     }
