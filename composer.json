@@ -43,6 +43,17 @@
     },
     "support": {
         "issues": "https://github.com/contao-themes-net/material-icons-inserttag/issues",
-        "source": "https://github.com/contao-themes-net/material-icons-inserttag"
-    }
+        "source": "https://github.com/contao-themes-net/material-icons-inserttag",
+        "donate": "https://contao-themes.net/sponsoring.html"
+    },
+    "funding": [
+        {
+            "type": "patreon",
+            "url": "https://www.patreon.com/user?u=28241718"
+        },
+        {
+            "type": "corporate",
+            "url": "https://contao-themes.net/sponsoring.html"
+        }
+    ]
 }
