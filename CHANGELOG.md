@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.0.2) – 2021-11-19
+
+- [feature] add php 8 support
+
 ## [1.0.2](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.0.2) – 2019-03-07
 
 - [fix] fix error with bundle name
