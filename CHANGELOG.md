@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.1](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.1.1) – 2022-07-08
+
+- [fix] fix warning 'Warning: Undefined array key 2'
+
 ## [1.1.0](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.0.2) – 2021-11-19
 
 - [feature] add php 8 support
