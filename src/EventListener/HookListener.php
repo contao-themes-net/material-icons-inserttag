@@ -43,7 +43,7 @@ class HookListener
     {
         $parts = explode('::', $tag);
         $classes = '';
-        if (null !== $parts[2]) {
+        if (isset($parts[2]) && null !== $parts[2]) {
             $classes = $parts[2].' ';
         }
 
