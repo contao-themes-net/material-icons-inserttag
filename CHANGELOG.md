@@ -1,5 +1,15 @@
 # Changelog
 
+[//]: <> (
+Types of changes
+    Added for new Addeds.
+    Changed for changes in existing functionality.
+    Deprecated for soon-to-be removed Addeds.
+    Removed for now removed Addeds.
+    Fixed for any bug fixes.
+    Security in case of vulnerabilities.
+)
+
 ## [1.2.0](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.2.0) – 2022-10-08
 
 - [Changed] Add support for Contao 5
