@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        public: true
+
+    ctn.materialiconsinserttag.listener.hooks:
+        class: ContaoThemesNet\MaterialIconsInserttag\EventListener\HookListener
+        public: true
+        arguments:
+            - "@contao.framework"

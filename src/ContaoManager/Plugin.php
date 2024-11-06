@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * Material Icons Inserttag Bundle for Contao Open Source CMS
  *
