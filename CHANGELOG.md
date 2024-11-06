@@ -10,6 +10,12 @@ Types of changes
     Security in case of vulnerabilities.
 )
 
+## [1.2.1](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.2.1) – 2024-11-06
+
+- [Fixed] Update services.yml to support Contao 5.4
+- [Changed] Change bundle structure
+- [Changed] Increase Contao version to 4.13 and PHP to 7.4
+
 ## [1.2.0](https://github.com/contao-themes-net/material-icons-inserttag/tree/1.2.0) – 2022-10-08
 
 - [Changed] Add support for Contao 5
