@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 /*
  * Material Icons Inserttag Bundle for Contao Open Source CMS
  *
@@ -18,4 +20,8 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class ContaoThemesNetMaterialIconsInserttagBundle extends Bundle
 {
+    public function getPath(): string
+    {
+        return \dirname(__DIR__);
+    }
 }
